@@ -1,7 +1,7 @@
 using System;
 namespace Helloworld
 {
-    class program
+    class Helloworld
     {
         static void main(string[] args)
         {
