@@ -10,7 +10,8 @@ namespace GradeBook
             ///var y = 10.33;
             ///var result = x + y;
             ///Console.WriteLine(result);
-            double[] numbers = new double[1];
+            ///double[] numbers = new double[1];
+            var numbers = new double[1];
             numbers[0] = 12.7;
             Console.WriteLine($"{numbers[0]}");
             if(args.Length > 0)
