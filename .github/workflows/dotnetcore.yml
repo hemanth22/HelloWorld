@@ -23,8 +23,6 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-    - name: Test
-      run: dotnet HelloWorld/bin/Release/netcoreapp2.1/GradeBook.dll
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
