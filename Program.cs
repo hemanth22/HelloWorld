@@ -12,7 +12,7 @@ namespace GradeBook
             ///Console.WriteLine(result);
             double[] numbers = new double[1];
             numbers[0] = 12.7;
-            print(numbers);
+            Console.WriteLine(numbers);
             if(args.Length > 0)
             {
                 Console.WriteLine($"Hello, {args[0]}!");
