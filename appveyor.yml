@@ -18,9 +18,10 @@ build_script:
   - cmd: dotnet build --configuration Release --no-restore
 after_build:
   # For once the build has completed
-artifacts:
+  - cmd: dotnet bin\Release\netcoreapp2.1\DLL\GradeBook.dll 
+artifacts: 
  - path: 'bin\Release\netcoreapp2.1\'
-   name: DLL File
+   name: DLL
    type: Auto
 clone_depth: 1
 on_finish :
