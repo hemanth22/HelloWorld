@@ -18,8 +18,8 @@ class Book
         public void ShowStatistic()
         {
             var result = 0.0;
-            var lowGrade = double.MinValue;
-            var highGrade = double.MaxValue;
+            var highGrade = double.MinValue;
+            var lowGrade = double.MaxValue;
 
             foreach(var number in grades)
             {
